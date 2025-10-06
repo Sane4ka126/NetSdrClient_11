@@ -13,6 +13,11 @@ public class NetSdrClientTests
     public NetSdrClientTests() { }
 
     [SetUp]
+
+
+
+
+
     public void Setup()
     {
         _tcpMock = new Mock<ITcpClient>();
