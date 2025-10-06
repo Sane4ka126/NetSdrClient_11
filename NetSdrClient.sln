@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSdrClientApp", "NetSdrClientApp\NetSdrClientApp.csproj", "{3CA739B1-888F-4B84-8E76-387640E3B3E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSdrClientAppTests", "NetSdrClientAppTests\NetSdrClientAppTests.csproj", "{D0155366-89B4-4BA4-90E2-2ECC8C1EB915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EchoServer", "EchoTspServer\EchoServer.csproj", "{9179F2F7-EBEE-4A5D-9FD9-F6E3C18DD263}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CA739B1-888F-4B84-8E76-387640E3B3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA739B1-888F-4B84-8E76-387640E3B3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA739B1-888F-4B84-8E76-387640E3B3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA739B1-888F-4B84-8E76-387640E3B3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0155366-89B4-4BA4-90E2-2ECC8C1EB915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0155366-89B4-4BA4-90E2-2ECC8C1EB915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0155366-89B4-4BA4-90E2-2ECC8C1EB915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0155366-89B4-4BA4-90E2-2ECC8C1EB915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9179F2F7-EBEE-4A5D-9FD9-F6E3C18DD263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9179F2F7-EBEE-4A5D-9FD9-F6E3C18DD263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9179F2F7-EBEE-4A5D-9FD9-F6E3C18DD263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9179F2F7-EBEE-4A5D-9FD9-F6E3C18DD263}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
