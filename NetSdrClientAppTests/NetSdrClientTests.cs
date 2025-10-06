@@ -21,8 +21,16 @@ namespace NetSdrClientAppTests
             _client = new NetSdrClient(_mockTcpClient.Object, _mockUdpClient.Object);
         }
 
-        [Test]
-        public void Constructor_InitializesProperties()
+    [SetUp]
+
+
+
+
+
+    public void Setup()
+    {
+        _tcpMock = new Mock<ITcpClient>();
+        _tcpMock.Setup(tcp => tcp.Connect()).Callback(() =>
         {
             // Arrange & Act
             var client = new NetSdrClient(_mockTcpClient.Object, _mockUdpClient.Object);
@@ -141,8 +149,12 @@ namespace NetSdrClientAppTests
             // Arrange
             _mockTcpClient.Setup(x => x.Connected).Returns(false);
 
-            // Act
-            var result = _mockTcpClient.Object.Connected;
+    [Test]
+    public async Task StopIQTest()
+    {
+
+        //Arrange 
+        await ConnectAsyncTest();
 
             // Assert
             Assert.That(result, Is.False);
