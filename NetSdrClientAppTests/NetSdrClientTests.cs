@@ -157,7 +157,7 @@ namespace NetSdrClientAppTests
             int channel = 0;
 
             // Act & Assert
-            Assert.DoesNotThrowAsync(async () =>
+            Assert.DoesNotThrowAsync(async () => 
                 await _client.ChangeFrequencyAsync(frequency, channel));
         }
     }
